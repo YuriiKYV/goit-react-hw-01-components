@@ -1,0 +1,39 @@
+.profile {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 250px;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.label {
+    display: block;
+    width: auto;
+}
+
+.name { 
+    margin-bottom: 10px;
+}
+
+.tag {
+    margin-bottom: 10px;
+}
+
+.location {
+    margin-bottom: 10px;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+        border: 2px solid rgb(96, 139, 168);
+            border-radius: 5px;
+            background-color: rgba(96, 139, 168, .2);
+}
+
+.label {
+    margin-right: 5px;
+}
