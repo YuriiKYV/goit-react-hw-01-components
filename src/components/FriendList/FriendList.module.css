@@ -1,0 +1,33 @@
+.friendList {
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    margin-bottom: 30px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    box-shadow: inset -10px -10px 100px #fff, 10px 10px 20px #7f9e81, inset 0px 0px 10px black;
+    padding: 5px;
+}
+
+.status {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: block;
+    margin-right: 10px;
+}
+
+.true {
+    background-color: green;
+}
+
+.false {
+    background-color: red;
+}
+
+.avatar {
+    margin-right: 10px;
+}

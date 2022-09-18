@@ -1,0 +1,38 @@
+.transactionHistory {
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    border-collapse: collapse;
+    color: #686461;
+    font-size: 18px;
+}
+
+.transactionHistory, th {
+    padding: 30px;
+}
+
+.hero {
+    text-transform: uppercase;
+    background-color: rgba(96, 139, 168, .2);
+}
+
+.list, td {
+    padding: 30px;
+}
+
+.item {
+    border-bottom: 3px solid #B9B29F;
+    text-align: center;
+}
+
+.item:nth-child(odd) {
+    background: white;
+}
+
+.item:nth-child(even) {
+    background: #44868169;
+}
+
+.type:first-letter {
+    text-transform: uppercase;
+}
